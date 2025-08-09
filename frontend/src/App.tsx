@@ -29,17 +29,7 @@ function App() {
         {showStats ? (
           <StatsDisplay />
         ) : (
-          <div className="space-y-8">
-            <div className="text-center">
-              <h2 className="text-xl font-semibold text-gray-900 mb-2">
-                Déposez votre candidature
-              </h2>
-              <p className="text-gray-600">
-                Remplissez le formulaire ci-dessous et téléchargez votre CV au format PDF
-              </p>
-            </div>
-            <CVUploadForm />
-          </div>
+          <CVUploadForm />
         )}
       </main>
 
