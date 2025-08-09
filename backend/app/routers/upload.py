@@ -54,8 +54,8 @@ async def upload_cv(
         # Lecture du contenu du fichier
         cv_content = await cv_file.read()
         
-        # Sauvegarde via le service de stockage
-        storage_result = await storage_service.save_cv_upload(cv_content, parsed_form_data)
+        # Sauvegarde via le service de stockage avec extraction de texte
+        storage_result = await storage_service.save_cv_upload(cv_content, parsed_form_data, cv_file.filename)
         
         # Construction de la réponse
         response_data = {

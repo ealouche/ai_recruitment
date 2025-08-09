@@ -5,4 +5,8 @@ pydantic>=2.5.0
 pydantic-settings==2.1.0
 aiofiles==23.2.1
 azure-storage-blob==12.19.0
-aiohttp>=3.8.0 
+aiohttp>=3.8.0
+# Bibliothèques d'extraction de texte - Ajoutées par Elyes Alouache le 09/08/2025
+PyPDF2==3.0.1
+python-docx==1.2.0
+pdfplumber==0.11.7 

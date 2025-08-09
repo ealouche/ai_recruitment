@@ -277,6 +277,73 @@ Implémenter `StorageBackend` dans `app/core/storage.py`.
 ### Nouveaux Types de Champs
 Étendre `DynamicFormFields.tsx` pour supporter de nouveaux types.
 
+## 🔧 Modifications Elyes Alouache
+
+**Date des modifications :** 09/08/2025  
+**Demandeur :** Elyes Alouache
+
+### Fonctionnalités ajoutées
+
+#### Extraction de texte optimisée des CVs
+- **Module :** `app/core/text_extractor.py`
+- **Optimisation :** Usage minimal des ressources (CPU, mémoire, E/S)
+- **Formats supportés :** PDF, DOCX, DOC, TXT
+- **Caractéristiques :**
+  - Extraction rapide et linéaire
+  - Préservation des sauts de ligne pour la lisibilité
+  - Validation automatique du texte extrait
+  - Gestion d'erreurs robuste avec fallback
+  - Statistiques d'extraction détaillées
+  - Configuration centralisée des paramètres
+
+#### Structure de stockage organisée
+- **CVs originaux :** `cv/` avec suffixe d'ID unique
+- **Dossiers de données :** `data/{id}/` pour chaque upload
+- **Fichiers générés :**
+  - `cv/nom_fichier_{id}.ext` - CV original avec ID
+  - `data/{id}/extracted_{id}.txt` - Texte extrait du CV
+  - `data/{id}/form_{id}.json` - Données du formulaire et métadonnées
+
+#### Lien entre l'ID et les fichiers
+```
+Upload ID: 12345678-abcd-efgh-ijkl-123456789012
+├── cv/
+│   └── CV_candidat_12345678-abcd-efgh-ijkl-123456789012.pdf
+└── data/
+    └── 12345678-abcd-efgh-ijkl-123456789012/
+        ├── extracted_12345678-abcd-efgh-ijkl-123456789012.txt
+        └── form_12345678-abcd-efgh-ijkl-123456789012.json
+```
+
+#### Optimisations backend effectuées
+- **Configuration centralisée** : Paramètres configurables dans `config.py`
+- **Support multi-format** : PDF, DOCX, DOC, TXT avec validation MIME
+- **Taille maximale augmentée** : 10MB pour les CVs volumineux
+- **Validation optimisée** : Paramètres configurables pour longueur et nombre de mots
+- **Code nettoyé** : Suppression des imports dupliqués et code redondant
+- **Gestion d'erreurs améliorée** : Fallback automatique et logging détaillé
+
+#### Optimisations pour ressources minimales
+- **Lecture en streaming** pour minimiser l'usage mémoire
+- **Extraction linéaire** sans parsing inutile des documents
+- **Imports conditionnels** des bibliothèques selon les besoins
+- **Validation préalable** pour éviter les traitements inutiles
+- **Configuration dynamique** des seuils de validation
+
+#### Bibliothèques ajoutées
+- `PyPDF2==3.0.1` - Extraction PDF (fallback)
+- `python-docx==1.2.0` - Extraction DOCX/DOC
+- `pdfplumber==0.11.7` - Extraction PDF optimisée (prioritaire)
+
+#### Intégration automatique
+- **Déclenchement :** Automatique après réception du fichier
+- **Service :** Intégré dans `StorageService.save_cv_upload()`
+- **Logging :** Traçabilité complète des opérations
+- **Métadonnées :** Enrichissement avec statistiques d'extraction
+- **Stockage local forcé** : Azure Blob Storage désactivé temporairement
+
+---
+
 ## 📝 Licence
 
 MIT License - Voir le fichier LICENSE pour plus de détails.

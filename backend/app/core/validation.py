@@ -3,7 +3,6 @@ import re
 import os
 from fastapi import HTTPException, UploadFile
 from app.core.config import settings
-import os
 
 class ValidationError(Exception):
     """Exception pour les erreurs de validation"""
