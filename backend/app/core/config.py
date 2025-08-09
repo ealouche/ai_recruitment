@@ -5,7 +5,11 @@ class Settings(BaseSettings):
     """Configuration centralisée de l'application"""
     
     # CORS Configuration
-    ALLOWED_ORIGINS: List[str] = ["http://localhost:5173", "http://127.0.0.1:5173"]
+    ALLOWED_ORIGINS: List[str] = [
+        "http://localhost:5173", "http://127.0.0.1:5173", 
+        "http://localhost:5174", "http://127.0.0.1:5174",
+        "http://127.0.0.1:51674", "http://localhost:51674"
+    ]
     
     # File Upload Configuration - Optimisé par Elyes Alouache 09/08/2025
     MAX_FILE_SIZE: int = 10 * 1024 * 1024  # 10MB (augmenté pour les CVs volumineux)
