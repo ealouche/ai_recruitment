@@ -1,0 +1,26 @@
+{
+  "upload_id": "62285f93-aec2-4ba9-8c90-fa1a24a46fa5",
+  "form_data": {
+    "prenom": "Elyes",
+    "nom": "Alouache",
+    "email": "elyes.student@gmail.com",
+    "telephone": "0622928587",
+    "localisation": "lille",
+    "date_disponibilite": "2025-08-09",
+    "rgpd_consent": true
+  },
+  "cv_filename": "CV_Elyes Alouache_Francais_62285f93-aec2-4ba9-8c90-fa1a24a46fa5.pdf",
+  "cv_folder": "cv",
+  "extracted_filename": "extracted_62285f93-aec2-4ba9-8c90-fa1a24a46fa5.txt",
+  "upload_timestamp": "139740464398463800",
+  "extraction_stats": {
+    "character_count": 4183,
+    "word_count": 595,
+    "line_count": 88,
+    "non_empty_lines": 87,
+    "is_valid": true
+  },
+  "folder_path": "data/62285f93-aec2-4ba9-8c90-fa1a24a46fa5",
+  "extraction_date": "09/08/2025",
+  "extracted_by": "Elyes Alouache - Optimized Text Extractor"
+}

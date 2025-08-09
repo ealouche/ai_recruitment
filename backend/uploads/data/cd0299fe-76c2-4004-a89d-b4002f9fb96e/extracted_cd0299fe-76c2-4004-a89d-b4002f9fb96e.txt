@@ -1,0 +1,88 @@
+ELYES ALOUACHE
+DATA INGENIEUR (XP : 5 ans)
+COORDONNÉES
++33 6 22 92 85 87
+EXPÉRIENCES PROFESSIONNELLES
+elyes.student@gmail.com
+Data Ingenieur Azure, NHOOD France Lille
+févr. 2024 - dec 2024
+•Création et optimisation de pipelines ETL/ELT avec Azure Data Factory.
+•Développement de notebooks Python pour l’ingestion, la transformation et l’analyse des
+PROFIL données à grande échelle via Azure Databricks.
+•Déploiement des solutions via la méthodologie DevOps sur Azure DevOps
+Fort d'une expérience •Participation à des projets en méthodologie Agile.
+significative de 6 ans en tant •Collaboration avec les parties prenantes pour le recueil et le cadrage des besoins métiers.
+qu'ingénieur data, je possède •Conception et modélisation de bases de données
+•Création et maintenance de rapports et tableaux de bord Power BI.
+une solide expertise dans
+•Conception et déploiement de cubes multidimensionnels dans Power BI.
+l'intégration de données sur
+Azure/AWS/GCP et Talend,
+ainsi qu'une solide experience Intégrateur/Développeur Talend, Auchan Retail International France Lille
+oct. 2021 - déc. 2023
+des pratiques DevOps, du
+langage Python, des systèmes •Developpement Job talend (Fichier/BDD/Web service)
+Linux et des bases de données •Intégration des livrables Talend (Job/Route)
+Oracle/Microsoft/BigQuerry. •Assistance N3 sur la partie Flux Talend
+Animé par une véritable •Optimiser la chaine CI/CD
+passion pour les défis •Mise en place des test applicatifs (uat/preprod)
+•Mise en place et test de WebService SOAP
+technologiques, je suis
+•Garantir le respect de l’architecture cible
+déterminé à apporter une
+•Précalification, cadrage des demandes
+valeur ajoutée à votre équipe
+et à contribuer efficacement à
+Data Ingenieur Talend/AWS : Decathlon France Lille
+la réussite de projets avant-
+Nov 2020 – oct 2021
+gardistes.
+●Création et maintenance des flux de données Talend (Jobs/Routes) et des pipelines ETL
+sur AWS.
+●Développement et optimisation des applications Spark pour le traitement de données à
+grande échelle sur Amazon EMR.
+COMPÉTENCES ●Gestion de l'ingestion de données dans le cloud en utilisant Amazon S3.
+●Optimisation des processus d'agrégation de données en tirant parti de AWS Spark et
+Talend.
+●ETL: Azure / AWS / GCP/ Talend ●Développement de services Web REST et SOAP avec Talend.
+●Amélioration des pipelines CI/CD avec Jenkins.
+●Publication et déploiement des artefacts sur des serveurs via AWS ECS, TAC.
+●DevOps: Azure DevOps/Git Lab/
+Jenkins
+●Databases: Oracle, Microsoft SQL Data ingenieur Talend/GCP, Synotis Suisse, Lausanne
+Server ,Big querry oct. 2018 - sept. 2020
+●Création et alimentation de modèles de données, via BigQuery et Cloud Storage de GCP
+●Operating Systems: Linux
+●Création et maintenance des flux de données Talend (Jobs/Routes)
+●Utilisation de Cloud Monitoring sur GCP pour assurer la qualité et la disponibilité des
+●BI & Reporting: Power BI,
+données
+SSIS/SSAS/SSRS ●Création de scénarios d'orchestration et surveillance des workflows avec Talend et Cloud
+Composer
+●Programming: Python/Java ●Création de WebService Talend Rest et Soap
+●Publication et déploiement d’artefact sur Talend Administor Center
+●Migration Talend de la version 6.4.1 vers 7.2
+●Création de DataMart (Kimball/ Inmon Méthodologie/SQLserver)
+
+Developpeur Talend : Auchan Retail International
+SSIS/SSAS/SSRS avr. 2018 - sept. 2018
+•Rédaction des spécifications techniques alignées aux besoins fonctionnels
+Visual Studio
+•Analyse du modèle de données orienté Retail (DWH)
+•Création de DataMart via Sql developer (Kimball/ Inmon Méthodologie)
+•Alimentation du Data Mart Rcos via Talend à des fins de reporting PowerBI
+•Coordination des phases de test utilisateur
+•Optimisation de requête SQL (Oracle)
+LANGUES •Mise en production des applications via Talend Administrator
+•Gestion de la qualité des données via Talend Data quality
+Français
+Anglais
+ÉDUCATION
+Master 2 SIAD Business Intelligence and Technical Skills Training, Université de Lille, Lille
+2018
+CENTRES
+Modélisation • Python • SQL Server/Oracle Java • ETL
+D'INTÉRÊT
+Licence Science Economie et Gestion, Université de Lille/Windesheim
+Sport/Voyage 2016
+Micro/Macro-Économie • Finance bancaire • Statistique • Marketing
