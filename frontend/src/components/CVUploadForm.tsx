@@ -5,7 +5,7 @@ import { apiService } from '../services/api'
 import type { FormConfig, FormData } from '../types/form'
 import CVPreview from './CVPreview'
 import DynamicFormFields from './DynamicFormFields'
-import ProcessStepsVignettes from './ProcessStepsVignettes'
+
 import confetti from 'canvas-confetti'
 
 const CVUploadForm = () => {
@@ -324,11 +324,7 @@ const CVUploadForm = () => {
           )}
         </div>
         
-        {/* Section processus de candidature avec vignettes dynamiques */}
-        <ProcessStepsVignettes 
-          isVisible={true} 
-          currentStep={selectedFile ? 2 : 1} 
-        />
+
 
         {/* Champs dynamiques du formulaire */}
         <div ref={dynamicFormRef}>
